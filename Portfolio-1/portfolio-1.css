@@ -1,0 +1,282 @@
+body {
+    margin: 0;
+}
+
+.cus-icon {
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.cus-icon:hover {
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+.white-box {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 0px solid white;
+    box-sizing: border-box;
+    transition: all 1s;
+}
+
+.white-box:hover {
+    border: 30px solid white;
+}
+
+/* 1번째 칸*/
+/* div */
+.main-banner {
+    width: 100%;
+    height: 600px;
+    background-color: cornflowerblue;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.container-left, .container-right {
+    width: 50%;
+    padding: 30px;
+}
+
+.container-right {
+    display: flex;
+    padding-bottom: 0;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.title {
+    padding: 20px;
+    color: white;
+}
+
+.container-right img {
+    height: 80%;
+    
+}
+
+/* 다른 태그들 */
+.banner-btn {
+    padding: 15px 25px;
+    background-color: rgb(102, 102, 102);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    transition: all 1s;
+}
+
+.banner-btn:hover {
+    cursor: pointer;
+    background-color: rgb(65, 65, 65);
+}
+
+.title h2 {
+    font-size: 32px;
+}
+
+/* 2번째 칸 */
+
+.sub-banner {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub-banner-title {
+    padding: 30px;
+    width: 600px;
+    text-align: center;
+}
+
+/* 3번째 칸 */
+/* div */
+.icon-banner {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    background-color: cornflowerblue;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-banner-container {
+    max-width: 1200px;
+    padding: 40px;
+    box-sizing: border-box;
+    color: white;
+}
+
+.icon-banner-title {
+    text-align: center;
+    padding: 10px;
+}
+
+.icon-banner-area {
+    display: flex;
+    text-align: center;
+}
+
+.icon-banner-item {
+    margin: 15px;
+}
+
+/* 다른태그 */
+.icon-banner-title > span {
+    font-size: 6px;
+}
+
+.icon-banner-title > p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.icon-banner-item > span {
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.icon-banner-item i {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 30px;
+    font-size: 40px;
+    margin-top: 10px;
+    color: cornflowerblue;
+    border-radius: 50px;
+}
+
+
+/* 4번째 칸 */
+.sub-main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 1400px;
+}
+
+.sub-bg {
+    width: 1600px;
+    height: 1300px;
+    margin: auto;
+}
+
+.sub-bg-title {
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.sub-bg-body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 1000px;
+}
+
+.sub-bg-item-head {
+    
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.sub-bg-item-body {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.sub-bg-item {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background-color: darkgrey;
+}
+
+.sub-bg-content {
+    padding: 30px;
+    margin: 50px;
+}
+
+.sub-bg-bottom {
+    width: 100%;
+    height: 220px;
+    box-sizing: border-box;
+}
+
+.sub-bg-bottom-icon {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.sub-bg-bottom-icon-item {
+    width: 80px;
+    height: 80px;
+    background-color: cornflowerblue;
+    border-radius: 40px;
+    margin: 30px;
+    text-align: center;
+    padding-top: 25px;
+    box-sizing: border-box;
+}
+
+/* 다른태그 */
+.sub-bg-title > span {
+    font-size: 6px;
+    
+}
+
+.sub-bg-title > p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.sub-bg-item {
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.sub-bg-content > span {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.sub-bg-content > p {
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.sub-bg-bottom-icon-item i {
+    font-size: 30px;
+    color: white;
+    margin: auto;
+}
+
+.sub-bg-bottom-company p {
+    text-align: center;
+    color: gray;
+    font-weight: 600;
+}
